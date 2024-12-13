@@ -16,4 +16,3 @@ class Keyword(Base):
     __tablename__ = 'keywords'
     id = Column(Integer, primary_key=True, autoincrement=True)
     word = Column(String, unique=True, nullable=False)
-

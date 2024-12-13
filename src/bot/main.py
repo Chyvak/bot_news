@@ -1,48 +1,46 @@
-import asyncio
-from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, filters
-from src.bot.handlers import (
-    start, add_keyword_command, remove_keyword_command,
-    list_keywords_command, handle_message
-)
-from src.db.database import database, init_db
+from telegram import Update
+from telegram.ext import ContextTypes
+from src.utils.keywords import get_keywords, add_keyword, remove_keyword, edit_keyword
 
-async def main():
-    init_db()
-    await database.connect()
+async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    await update.message.reply_text("Привет! Я собираю сообщения по ключевым словам.")
 
-    app = ApplicationBuilder().token("YOUR_BOT_TOKEN").build()
-    app.add_handler(CommandHandler("start", start))
-    app.add_handler(CommandHandler("add_keyword", add_keyword_command))
-    app.add_handler(CommandHandler("remove_keyword", remove_keyword_command))
-    app.add_handler(CommandHandler("list_keywords", list_keywords_command))
-    app.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, handle_message))
+async def add_keyword_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    if not context.args:
+        await update.message.reply_text("Укажите ключевое слово для добавления.")
+        return
+    keyword = " ".join(context.args)
+    await add_keyword(keyword)
+    await update.message.reply_text(f"Ключевое слово '{keyword}' добавлено.")
 
-    print("Бот запущен.")
-    await app.run_polling()
+async def remove_keyword_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    if not context.args:
+        await update.message.reply_text("Укажите ключевое слово для удаления.")
+        return
+    keyword = " ".join(context.args)
+    await remove_keyword(keyword)
+    await update.message.reply_text(f"Ключевое слово '{keyword}' удалено.")
 
-if __name__ == "__main__":
-    asyncio.run(main())
+async def edit_keyword_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    if len(context.args) < 2:
+        await update.message.reply_text("Использование: /edit_keyword <старое_слово> <новое_слово>")
+        return
+    old_word, new_word = context.args[0], " ".join(context.args[1:])
+    await edit_keyword(old_word, new_word)
+    await update.message.reply_text(f"Ключевое слово '{old_word}' изменено на '{new_word}'.")
 
+async def list_keywords_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    keywords = await get_keywords()
+    if keywords:
+        await update.message.reply_text("Ключевые слова:\\n" + "\\n".join(keywords))
+    else:
+        await update.message.reply_text("Список ключевых слов пуст.")
 
-from src.bot.handlers import (
-    start, add_keyword_command, remove_keyword_command,
-    list_keywords_command, edit_keyword_command, help_command
-)
-
-async def main():
-    init_db()
-    await database.connect()
-
-    app = ApplicationBuilder().token("YOUR_BOT_TOKEN").build()
-
-    app.add_handler(CommandHandler("start", start))
-    app.add_handler(CommandHandler("help", help_command))
-    app.add_handler(CommandHandler("add_keyword", add_keyword_command))
-    app.add_handler(CommandHandler("remove_keyword", remove_keyword_command))
-    app.add_handler(CommandHandler("edit_keyword", edit_keyword_command))
-    app.add_handler(CommandHandler("list_keywords", list_keywords_command))
-    app.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, handle_message))
-
-    print("Бот запущен.")
-    await app.run_polling()
-
+async def help_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    commands = (
+        "/add_keyword <слово> — добавить ключевое слово.\\n"
+        "/remove_keyword <слово> — удалить ключевое слово.\\n"
+        "/edit_keyword <старое_слово> <новое_слово> — изменить ключевое слово.\\n"
+        "/list_keywords — список всех ключевых слов."
+    )
+    await update.message.reply_text(f"Доступные команды:\\n{commands}")
