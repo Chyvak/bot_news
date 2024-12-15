@@ -1,0 +1,228 @@
+2024-12-15 00:04:53,114 - __main__ - INFO - Команды зарегистрированы. Ожидание сообщений...
+2024-12-15 00:12:45,233 - __main__ - INFO - Команды зарегистрированы. Ожидание сообщений...
+2024-12-15 11:51:25,888 - __main__ - INFO - Команды зарегистрированы. Ожидание сообщений...
+2024-12-15 12:08:45,811 - __main__ - INFO - Команды зарегистрированы. Ожидание сообщений...
+2024-12-15 12:08:49,307 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7778409248:AAH5-jsD0ohwn6BtBNbu575t5TnLaZFjiwk/getMe "HTTP/1.1 200 OK"
+2024-12-15 12:08:49,333 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7778409248:AAH5-jsD0ohwn6BtBNbu575t5TnLaZFjiwk/deleteWebhook "HTTP/1.1 200 OK"
+2024-12-15 12:08:49,336 - telegram.ext.Application - INFO - Application started
+2024-12-15 12:08:59,497 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7778409248:AAH5-jsD0ohwn6BtBNbu575t5TnLaZFjiwk/getUpdates "HTTP/1.1 200 OK"
+2024-12-15 12:09:09,635 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7778409248:AAH5-jsD0ohwn6BtBNbu575t5TnLaZFjiwk/getUpdates "HTTP/1.1 200 OK"
+2024-12-15 12:09:19,663 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7778409248:AAH5-jsD0ohwn6BtBNbu575t5TnLaZFjiwk/getUpdates "HTTP/1.1 200 OK"
+2024-12-15 12:09:29,705 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7778409248:AAH5-jsD0ohwn6BtBNbu575t5TnLaZFjiwk/getUpdates "HTTP/1.1 200 OK"
+2024-12-15 12:09:39,843 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7778409248:AAH5-jsD0ohwn6BtBNbu575t5TnLaZFjiwk/getUpdates "HTTP/1.1 200 OK"
+2024-12-15 12:09:49,870 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7778409248:AAH5-jsD0ohwn6BtBNbu575t5TnLaZFjiwk/getUpdates "HTTP/1.1 200 OK"
+2024-12-15 12:09:59,899 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7778409248:AAH5-jsD0ohwn6BtBNbu575t5TnLaZFjiwk/getUpdates "HTTP/1.1 200 OK"
+2024-12-15 12:10:09,927 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7778409248:AAH5-jsD0ohwn6BtBNbu575t5TnLaZFjiwk/getUpdates "HTTP/1.1 200 OK"
+2024-12-15 12:10:19,959 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7778409248:AAH5-jsD0ohwn6BtBNbu575t5TnLaZFjiwk/getUpdates "HTTP/1.1 200 OK"
+2024-12-15 12:10:29,985 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7778409248:AAH5-jsD0ohwn6BtBNbu575t5TnLaZFjiwk/getUpdates "HTTP/1.1 200 OK"
+2024-12-15 12:10:33,254 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7778409248:AAH5-jsD0ohwn6BtBNbu575t5TnLaZFjiwk/getUpdates "HTTP/1.1 200 OK"
+2024-12-15 12:10:33,365 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7778409248:AAH5-jsD0ohwn6BtBNbu575t5TnLaZFjiwk/sendMessage "HTTP/1.1 200 OK"
+2024-12-15 12:10:43,332 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7778409248:AAH5-jsD0ohwn6BtBNbu575t5TnLaZFjiwk/getUpdates "HTTP/1.1 200 OK"
+2024-12-15 12:10:53,469 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7778409248:AAH5-jsD0ohwn6BtBNbu575t5TnLaZFjiwk/getUpdates "HTTP/1.1 200 OK"
+2024-12-15 12:11:03,504 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7778409248:AAH5-jsD0ohwn6BtBNbu575t5TnLaZFjiwk/getUpdates "HTTP/1.1 200 OK"
+2024-12-15 12:11:13,539 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7778409248:AAH5-jsD0ohwn6BtBNbu575t5TnLaZFjiwk/getUpdates "HTTP/1.1 200 OK"
+2024-12-15 12:11:23,678 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7778409248:AAH5-jsD0ohwn6BtBNbu575t5TnLaZFjiwk/getUpdates "HTTP/1.1 200 OK"
+2024-12-15 12:11:33,815 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7778409248:AAH5-jsD0ohwn6BtBNbu575t5TnLaZFjiwk/getUpdates "HTTP/1.1 200 OK"
+2024-12-15 12:11:43,850 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7778409248:AAH5-jsD0ohwn6BtBNbu575t5TnLaZFjiwk/getUpdates "HTTP/1.1 200 OK"
+2024-12-15 12:11:53,886 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7778409248:AAH5-jsD0ohwn6BtBNbu575t5TnLaZFjiwk/getUpdates "HTTP/1.1 200 OK"
+2024-12-15 12:12:03,925 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7778409248:AAH5-jsD0ohwn6BtBNbu575t5TnLaZFjiwk/getUpdates "HTTP/1.1 200 OK"
+2024-12-15 12:12:14,059 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7778409248:AAH5-jsD0ohwn6BtBNbu575t5TnLaZFjiwk/getUpdates "HTTP/1.1 200 OK"
+2024-12-15 12:12:24,197 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7778409248:AAH5-jsD0ohwn6BtBNbu575t5TnLaZFjiwk/getUpdates "HTTP/1.1 200 OK"
+2024-12-15 12:12:34,335 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7778409248:AAH5-jsD0ohwn6BtBNbu575t5TnLaZFjiwk/getUpdates "HTTP/1.1 200 OK"
+2024-12-15 12:12:44,473 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7778409248:AAH5-jsD0ohwn6BtBNbu575t5TnLaZFjiwk/getUpdates "HTTP/1.1 200 OK"
+2024-12-15 12:12:54,526 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7778409248:AAH5-jsD0ohwn6BtBNbu575t5TnLaZFjiwk/getUpdates "HTTP/1.1 200 OK"
+2024-12-15 12:13:04,555 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7778409248:AAH5-jsD0ohwn6BtBNbu575t5TnLaZFjiwk/getUpdates "HTTP/1.1 200 OK"
+2024-12-15 12:13:16,576 - telegram.ext.Updater - ERROR - Error while getting Updates: httpx.ConnectError: [Errno -3] Temporary failure in name resolution
+2024-12-15 12:13:16,576 - telegram.ext.Application - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/bot/projects/bot_news/venv/lib/python3.12/site-packages/httpcore/_exceptions.py", line 10, in map_exceptions
+    yield
+  File "/home/bot/projects/bot_news/venv/lib/python3.12/site-packages/httpcore/_backends/anyio.py", line 114, in connect_tcp
+    stream: anyio.abc.ByteStream = await anyio.connect_tcp(
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/bot/projects/bot_news/venv/lib/python3.12/site-packages/anyio/_core/_sockets.py", line 208, in connect_tcp
+    gai_res = await getaddrinfo(
+              ^^^^^^^^^^^^^^^^^^
+  File "/home/bot/projects/bot_news/venv/lib/python3.12/site-packages/anyio/_core/_sockets.py", line 581, in getaddrinfo
+    gai_res = await get_async_backend().getaddrinfo(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/bot/projects/bot_news/venv/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 2727, in getaddrinfo
+    return await get_running_loop().getaddrinfo(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 901, in getaddrinfo
+    return await self.run_in_executor(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/socket.py", line 963, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno -3] Temporary failure in name resolution
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/bot/projects/bot_news/venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 60, in map_httpcore_exceptions
+    yield
+  File "/home/bot/projects/bot_news/venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 353, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/bot/projects/bot_news/venv/lib/python3.12/site-packages/httpcore/_async/connection_pool.py", line 262, in handle_async_request
+    raise exc
+  File "/home/bot/projects/bot_news/venv/lib/python3.12/site-packages/httpcore/_async/connection_pool.py", line 245, in handle_async_request
+    response = await connection.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/bot/projects/bot_news/venv/lib/python3.12/site-packages/httpcore/_async/connection.py", line 92, in handle_async_request
+    raise exc
+  File "/home/bot/projects/bot_news/venv/lib/python3.12/site-packages/httpcore/_async/connection.py", line 69, in handle_async_request
+    stream = await self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/bot/projects/bot_news/venv/lib/python3.12/site-packages/httpcore/_async/connection.py", line 117, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/bot/projects/bot_news/venv/lib/python3.12/site-packages/httpcore/_backends/auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/bot/projects/bot_news/venv/lib/python3.12/site-packages/httpcore/_backends/anyio.py", line 112, in connect_tcp
+    with map_exceptions(exc_map):
+  File "/usr/lib/python3.12/contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "/home/bot/projects/bot_news/venv/lib/python3.12/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: [Errno -3] Temporary failure in name resolution
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/bot/projects/bot_news/venv/lib/python3.12/site-packages/telegram/request/_httpxrequest.py", line 216, in do_request
+    res = await self._client.request(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/bot/projects/bot_news/venv/lib/python3.12/site-packages/httpx/_client.py", line 1530, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/bot/projects/bot_news/venv/lib/python3.12/site-packages/httpx/_client.py", line 1617, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/bot/projects/bot_news/venv/lib/python3.12/site-packages/httpx/_client.py", line 1645, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/bot/projects/bot_news/venv/lib/python3.12/site-packages/httpx/_client.py", line 1682, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/bot/projects/bot_news/venv/lib/python3.12/site-packages/httpx/_client.py", line 1719, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/bot/projects/bot_news/venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 352, in handle_async_request
+    with map_httpcore_exceptions():
+  File "/usr/lib/python3.12/contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "/home/bot/projects/bot_news/venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 77, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: [Errno -3] Temporary failure in name resolution
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/bot/projects/bot_news/venv/lib/python3.12/site-packages/telegram/ext/_updater.py", line 607, in _network_loop_retry
+    if not await action_cb():
+           ^^^^^^^^^^^^^^^^^
+  File "/home/bot/projects/bot_news/venv/lib/python3.12/site-packages/telegram/ext/_updater.py", line 335, in polling_action_cb
+    raise exc
+  File "/home/bot/projects/bot_news/venv/lib/python3.12/site-packages/telegram/ext/_updater.py", line 320, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/bot/projects/bot_news/venv/lib/python3.12/site-packages/telegram/ext/_extbot.py", line 543, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/bot/projects/bot_news/venv/lib/python3.12/site-packages/telegram/_bot.py", line 381, in decorator
+    result = await func(self, *args, **kwargs)  # skipcq: PYL-E1102
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/bot/projects/bot_news/venv/lib/python3.12/site-packages/telegram/_bot.py", line 3661, in get_updates
+    await self._post(
+  File "/home/bot/projects/bot_news/venv/lib/python3.12/site-packages/telegram/_bot.py", line 469, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/bot/projects/bot_news/venv/lib/python3.12/site-packages/telegram/ext/_extbot.py", line 325, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/bot/projects/bot_news/venv/lib/python3.12/site-packages/telegram/_bot.py", line 497, in _do_post
+    return await request.post(
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/bot/projects/bot_news/venv/lib/python3.12/site-packages/telegram/request/_baserequest.py", line 168, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/bot/projects/bot_news/venv/lib/python3.12/site-packages/telegram/request/_baserequest.py", line 291, in _request_wrapper
+    raise exc
+  File "/home/bot/projects/bot_news/venv/lib/python3.12/site-packages/telegram/request/_baserequest.py", line 277, in _request_wrapper
+    code, payload = await self.do_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/bot/projects/bot_news/venv/lib/python3.12/site-packages/telegram/request/_httpxrequest.py", line 240, in do_request
+    raise NetworkError(f"httpx.{err.__class__.__name__}: {err}") from err
+telegram.error.NetworkError: httpx.ConnectError: [Errno -3] Temporary failure in name resolution
+2024-12-15 12:13:27,686 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7778409248:AAH5-jsD0ohwn6BtBNbu575t5TnLaZFjiwk/getUpdates "HTTP/1.1 200 OK"
+2024-12-15 12:13:37,722 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7778409248:AAH5-jsD0ohwn6BtBNbu575t5TnLaZFjiwk/getUpdates "HTTP/1.1 200 OK"
+2024-12-15 12:13:47,756 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7778409248:AAH5-jsD0ohwn6BtBNbu575t5TnLaZFjiwk/getUpdates "HTTP/1.1 200 OK"
+2024-12-15 12:13:57,791 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7778409248:AAH5-jsD0ohwn6BtBNbu575t5TnLaZFjiwk/getUpdates "HTTP/1.1 200 OK"
+2024-12-15 12:14:07,819 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7778409248:AAH5-jsD0ohwn6BtBNbu575t5TnLaZFjiwk/getUpdates "HTTP/1.1 200 OK"
+2024-12-15 12:14:17,860 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7778409248:AAH5-jsD0ohwn6BtBNbu575t5TnLaZFjiwk/getUpdates "HTTP/1.1 200 OK"
+2024-12-15 12:14:27,890 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7778409248:AAH5-jsD0ohwn6BtBNbu575t5TnLaZFjiwk/getUpdates "HTTP/1.1 200 OK"
+2024-12-15 12:14:38,036 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7778409248:AAH5-jsD0ohwn6BtBNbu575t5TnLaZFjiwk/getUpdates "HTTP/1.1 200 OK"
+2024-12-15 12:14:48,060 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7778409248:AAH5-jsD0ohwn6BtBNbu575t5TnLaZFjiwk/getUpdates "HTTP/1.1 200 OK"
+2024-12-15 12:14:58,089 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7778409248:AAH5-jsD0ohwn6BtBNbu575t5TnLaZFjiwk/getUpdates "HTTP/1.1 200 OK"
+2024-12-15 12:15:08,244 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7778409248:AAH5-jsD0ohwn6BtBNbu575t5TnLaZFjiwk/getUpdates "HTTP/1.1 200 OK"
+2024-12-15 12:15:18,279 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7778409248:AAH5-jsD0ohwn6BtBNbu575t5TnLaZFjiwk/getUpdates "HTTP/1.1 200 OK"
+2024-12-15 12:15:28,315 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7778409248:AAH5-jsD0ohwn6BtBNbu575t5TnLaZFjiwk/getUpdates "HTTP/1.1 200 OK"
+2024-12-15 12:15:38,339 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7778409248:AAH5-jsD0ohwn6BtBNbu575t5TnLaZFjiwk/getUpdates "HTTP/1.1 200 OK"
+2024-12-15 12:15:48,363 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7778409248:AAH5-jsD0ohwn6BtBNbu575t5TnLaZFjiwk/getUpdates "HTTP/1.1 200 OK"
+2024-12-15 12:15:58,420 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7778409248:AAH5-jsD0ohwn6BtBNbu575t5TnLaZFjiwk/getUpdates "HTTP/1.1 200 OK"
+2024-12-15 12:16:08,456 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7778409248:AAH5-jsD0ohwn6BtBNbu575t5TnLaZFjiwk/getUpdates "HTTP/1.1 200 OK"
+2024-12-15 12:16:18,539 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7778409248:AAH5-jsD0ohwn6BtBNbu575t5TnLaZFjiwk/getUpdates "HTTP/1.1 200 OK"
+2024-12-15 12:16:28,564 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7778409248:AAH5-jsD0ohwn6BtBNbu575t5TnLaZFjiwk/getUpdates "HTTP/1.1 200 OK"
+2024-12-15 12:16:38,664 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7778409248:AAH5-jsD0ohwn6BtBNbu575t5TnLaZFjiwk/getUpdates "HTTP/1.1 200 OK"
+2024-12-15 12:16:48,700 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7778409248:AAH5-jsD0ohwn6BtBNbu575t5TnLaZFjiwk/getUpdates "HTTP/1.1 200 OK"
+2024-12-15 12:16:58,724 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7778409248:AAH5-jsD0ohwn6BtBNbu575t5TnLaZFjiwk/getUpdates "HTTP/1.1 200 OK"
+2024-12-15 12:17:08,771 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7778409248:AAH5-jsD0ohwn6BtBNbu575t5TnLaZFjiwk/getUpdates "HTTP/1.1 200 OK"
+2024-12-15 12:17:18,806 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7778409248:AAH5-jsD0ohwn6BtBNbu575t5TnLaZFjiwk/getUpdates "HTTP/1.1 200 OK"
+2024-12-15 12:17:28,944 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7778409248:AAH5-jsD0ohwn6BtBNbu575t5TnLaZFjiwk/getUpdates "HTTP/1.1 200 OK"
+2024-12-15 12:17:38,979 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7778409248:AAH5-jsD0ohwn6BtBNbu575t5TnLaZFjiwk/getUpdates "HTTP/1.1 200 OK"
+2024-12-15 12:17:49,003 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7778409248:AAH5-jsD0ohwn6BtBNbu575t5TnLaZFjiwk/getUpdates "HTTP/1.1 200 OK"
+2024-12-15 12:17:59,024 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7778409248:AAH5-jsD0ohwn6BtBNbu575t5TnLaZFjiwk/getUpdates "HTTP/1.1 200 OK"
+2024-12-15 12:18:09,086 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7778409248:AAH5-jsD0ohwn6BtBNbu575t5TnLaZFjiwk/getUpdates "HTTP/1.1 200 OK"
+2024-12-15 12:18:19,122 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7778409248:AAH5-jsD0ohwn6BtBNbu575t5TnLaZFjiwk/getUpdates "HTTP/1.1 200 OK"
+2024-12-15 12:18:29,259 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7778409248:AAH5-jsD0ohwn6BtBNbu575t5TnLaZFjiwk/getUpdates "HTTP/1.1 200 OK"
+2024-12-15 12:18:39,295 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7778409248:AAH5-jsD0ohwn6BtBNbu575t5TnLaZFjiwk/getUpdates "HTTP/1.1 200 OK"
+2024-12-15 12:18:49,336 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7778409248:AAH5-jsD0ohwn6BtBNbu575t5TnLaZFjiwk/getUpdates "HTTP/1.1 200 OK"
+2024-12-15 12:18:59,360 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7778409248:AAH5-jsD0ohwn6BtBNbu575t5TnLaZFjiwk/getUpdates "HTTP/1.1 200 OK"
+2024-12-15 12:19:09,400 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7778409248:AAH5-jsD0ohwn6BtBNbu575t5TnLaZFjiwk/getUpdates "HTTP/1.1 200 OK"
+2024-12-15 12:19:19,425 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7778409248:AAH5-jsD0ohwn6BtBNbu575t5TnLaZFjiwk/getUpdates "HTTP/1.1 200 OK"
+2024-12-15 12:19:29,471 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7778409248:AAH5-jsD0ohwn6BtBNbu575t5TnLaZFjiwk/getUpdates "HTTP/1.1 200 OK"
+2024-12-15 12:19:39,493 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7778409248:AAH5-jsD0ohwn6BtBNbu575t5TnLaZFjiwk/getUpdates "HTTP/1.1 200 OK"
+2024-12-15 12:19:49,549 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7778409248:AAH5-jsD0ohwn6BtBNbu575t5TnLaZFjiwk/getUpdates "HTTP/1.1 200 OK"
+2024-12-15 12:19:59,680 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7778409248:AAH5-jsD0ohwn6BtBNbu575t5TnLaZFjiwk/getUpdates "HTTP/1.1 200 OK"
+2024-12-15 12:20:09,704 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7778409248:AAH5-jsD0ohwn6BtBNbu575t5TnLaZFjiwk/getUpdates "HTTP/1.1 200 OK"
+2024-12-15 12:20:19,853 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7778409248:AAH5-jsD0ohwn6BtBNbu575t5TnLaZFjiwk/getUpdates "HTTP/1.1 200 OK"
+2024-12-15 12:20:29,990 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7778409248:AAH5-jsD0ohwn6BtBNbu575t5TnLaZFjiwk/getUpdates "HTTP/1.1 200 OK"
+2024-12-15 12:20:40,128 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7778409248:AAH5-jsD0ohwn6BtBNbu575t5TnLaZFjiwk/getUpdates "HTTP/1.1 200 OK"
+2024-12-15 12:20:50,163 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7778409248:AAH5-jsD0ohwn6BtBNbu575t5TnLaZFjiwk/getUpdates "HTTP/1.1 200 OK"
+2024-12-15 12:21:00,186 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7778409248:AAH5-jsD0ohwn6BtBNbu575t5TnLaZFjiwk/getUpdates "HTTP/1.1 200 OK"
+2024-12-15 12:21:10,234 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7778409248:AAH5-jsD0ohwn6BtBNbu575t5TnLaZFjiwk/getUpdates "HTTP/1.1 200 OK"
+2024-12-15 12:21:17,170 - telegram.ext.Application - INFO - Application is stopping. This might take a moment.
+2024-12-15 12:21:17,170 - telegram.ext.Application - INFO - Application.stop() complete
+2024-12-15 12:26:22,539 - __main__ - INFO - Команды зарегистрированы. Ожидание сообщений...
+2024-12-15 12:26:22,625 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7778409248:AAH5-jsD0ohwn6BtBNbu575t5TnLaZFjiwk/getMe "HTTP/1.1 200 OK"
+2024-12-15 12:26:22,647 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7778409248:AAH5-jsD0ohwn6BtBNbu575t5TnLaZFjiwk/deleteWebhook "HTTP/1.1 200 OK"
+2024-12-15 12:26:22,648 - telegram.ext.Application - INFO - Application started
+2024-12-15 12:26:32,800 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7778409248:AAH5-jsD0ohwn6BtBNbu575t5TnLaZFjiwk/getUpdates "HTTP/1.1 200 OK"
+2024-12-15 12:26:34,334 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7778409248:AAH5-jsD0ohwn6BtBNbu575t5TnLaZFjiwk/getUpdates "HTTP/1.1 200 OK"
+2024-12-15 12:26:34,432 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7778409248:AAH5-jsD0ohwn6BtBNbu575t5TnLaZFjiwk/sendMessage "HTTP/1.1 200 OK"
+2024-12-15 12:26:39,780 - telegram.ext.Application - INFO - Application is stopping. This might take a moment.
+2024-12-15 12:26:39,781 - telegram.ext.Application - INFO - Application.stop() complete
+2024-12-15 12:29:27,039 - __main__ - INFO - Команды зарегистрированы. Ожидание сообщений...
+2024-12-15 12:29:27,175 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7778409248:AAH5-jsD0ohwn6BtBNbu575t5TnLaZFjiwk/getMe "HTTP/1.1 200 OK"
+2024-12-15 12:29:27,199 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7778409248:AAH5-jsD0ohwn6BtBNbu575t5TnLaZFjiwk/deleteWebhook "HTTP/1.1 200 OK"
+2024-12-15 12:29:27,201 - telegram.ext.Application - INFO - Application started
+2024-12-15 12:29:35,909 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7778409248:AAH5-jsD0ohwn6BtBNbu575t5TnLaZFjiwk/getUpdates "HTTP/1.1 200 OK"
+2024-12-15 12:29:36,078 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7778409248:AAH5-jsD0ohwn6BtBNbu575t5TnLaZFjiwk/sendMessage "HTTP/1.1 200 OK"
+2024-12-15 12:29:41,938 - telegram.ext.Application - INFO - Application is stopping. This might take a moment.
+2024-12-15 12:29:41,939 - telegram.ext.Application - INFO - Application.stop() complete

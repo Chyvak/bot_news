@@ -44,3 +44,30 @@ async def help_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
         "/list_keywords — список всех ключевых слов."
     )
     await update.message.reply_text(f"Доступные команды:\\n{commands}")
+
+from telegram import Update
+from telegram.ext import ContextTypes
+from src.utils.channels import add_channel
+
+async def add_channel_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    if not context.args:
+        await update.message.reply_text("Укажите ID канала для добавления.")
+        return
+
+    chat_id = int(context.args[0])
+    name = " ".join(context.args[1:]) if len(context.args) > 1 else None
+    await add_channel(chat_id, name)
+    await update.message.reply_text(f"Канал с ID {chat_id} добавлен.")
+
+from telegram import Update
+from telegram.ext import ContextTypes
+from src.utils.channels import remove_channel
+
+async def remove_channel_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    if not context.args:
+        await update.message.reply_text("Укажите ID канала для удаления.")
+        return
+
+    chat_id = int(context.args[0])
+    await remove_channel(chat_id)
+    await update.message.reply_text(f"Канал с ID {chat_id} удален.")

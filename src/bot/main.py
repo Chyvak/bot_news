@@ -1,46 +1,40 @@
-from telegram import Update
-from telegram.ext import ContextTypes
-from src.utils.keywords import get_keywords, add_keyword, remove_keyword, edit_keyword
+import sys
+import os
+import logging
+from telegram.ext import ApplicationBuilder, CommandHandler
+from configs.config import BOT_TOKEN, LOG_FILE, LOG_LEVEL
+from src.bot.handlers import (
+    start, add_keyword_command, remove_keyword_command,
+    add_channel_command, remove_channel_command
+)
+# Добавляем корневую директорию проекта в PYTHONPATH
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../../')))
+from configs.config import BOT_TOKEN, LOG_FILE, LOG_LEVEL
 
-async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    await update.message.reply_text("Привет! Я собираю сообщения по ключевым словам.")
+# Настройка логирования
+log_dir = os.path.dirname(LOG_FILE)
+if not os.path.exists(log_dir):
+    os.makedirs(log_dir)
 
-async def add_keyword_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    if not context.args:
-        await update.message.reply_text("Укажите ключевое слово для добавления.")
-        return
-    keyword = " ".join(context.args)
-    await add_keyword(keyword)
-    await update.message.reply_text(f"Ключевое слово '{keyword}' добавлено.")
+logging.basicConfig(
+    filename=LOG_FILE,
+    level=LOG_LEVEL,
+    format="%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+)
+logger = logging.getLogger(__name__)
 
-async def remove_keyword_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    if not context.args:
-        await update.message.reply_text("Укажите ключевое слово для удаления.")
-        return
-    keyword = " ".join(context.args)
-    await remove_keyword(keyword)
-    await update.message.reply_text(f"Ключевое слово '{keyword}' удалено.")
+def main():
+    app = ApplicationBuilder().token(BOT_TOKEN).build()
 
-async def edit_keyword_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    if len(context.args) < 2:
-        await update.message.reply_text("Использование: /edit_keyword <старое_слово> <новое_слово>")
-        return
-    old_word, new_word = context.args[0], " ".join(context.args[1:])
-    await edit_keyword(old_word, new_word)
-    await update.message.reply_text(f"Ключевое слово '{old_word}' изменено на '{new_word}'.")
+    app.add_handler(CommandHandler("start", start))
+    app.add_handler(CommandHandler("add_keyword", add_keyword_command))
+    app.add_handler(CommandHandler("remove_keyword", remove_keyword_command))
+    app.add_handler(CommandHandler("add_channel", add_channel_command))
+    app.add_handler(CommandHandler("remove_channel", remove_channel_command))
 
-async def list_keywords_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    keywords = await get_keywords()
-    if keywords:
-        await update.message.reply_text("Ключевые слова:\\n" + "\\n".join(keywords))
-    else:
-        await update.message.reply_text("Список ключевых слов пуст.")
+    logger.info("Команды зарегистрированы. Ожидание сообщений...")
+    print("Бот запущен.")
+    app.run_polling()  # Здесь PTB сам управляет циклом событий
 
-async def help_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    commands = (
-        "/add_keyword <слово> — добавить ключевое слово.\\n"
-        "/remove_keyword <слово> — удалить ключевое слово.\\n"
-        "/edit_keyword <старое_слово> <новое_слово> — изменить ключевое слово.\\n"
-        "/list_keywords — список всех ключевых слов."
-    )
-    await update.message.reply_text(f"Доступные команды:\\n{commands}")
+if __name__ == "__main__":
+    main()
